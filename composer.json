@@ -1,0 +1,23 @@
+{
+    "name": "brandembassy/datetime-factory",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BrandEmbassy\\DateTime\\": "src"
+        }
+    },
+    "require": {
+        "php": "~7.2"
+    },
+    "require-dev": {
+        "brandembassy/coding-standard": "^5.0"
+    },
+    "scripts": {
+        "phpcs": "vendor/bin/phpcs --standard=BrandEmbassyCodingStandard src",
+        "phpcbf": "./vendor/bin/phpcbf --standard=BrandEmbassyCodingStandard src",
+        "phpstan": "./vendor/bin/phpstan analyse -c phpstan.neon src"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
