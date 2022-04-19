@@ -10,7 +10,7 @@
         "php": ">=7.4"
     },
     "require-dev": {
-        "brandembassy/coding-standard": "^5.0"
+        "brandembassy/coding-standard": "^8.8"
     },
     "scripts": {
         "phpcs": "vendor/bin/phpcs --standard=BrandEmbassyCodingStandard src",
