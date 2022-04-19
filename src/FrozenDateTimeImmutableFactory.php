@@ -4,12 +4,12 @@ namespace BrandEmbassy\DateTime;
 
 use DateTimeImmutable;
 
-final class FrozenDateTimeImmutableFactory implements DateTimeImmutableFactory
+/**
+ * @final
+ */
+class FrozenDateTimeImmutableFactory implements DateTimeImmutableFactory
 {
-    /**
-     * @var DateTimeImmutable
-     */
-    private $frozenAt;
+    private DateTimeImmutable $frozenAt;
 
 
     public function __construct(DateTimeImmutable $frozenAt)

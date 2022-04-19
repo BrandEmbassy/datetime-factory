@@ -4,7 +4,10 @@ namespace BrandEmbassy\DateTime;
 
 use DateTimeImmutable;
 
-final class CurrentDateTimeImmutableFactory implements DateTimeImmutableFactory
+/**
+ * @final
+ */
+class CurrentDateTimeImmutableFactory implements DateTimeImmutableFactory
 {
     public function getNow(): DateTimeImmutable
     {
