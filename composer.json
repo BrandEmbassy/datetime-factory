@@ -7,7 +7,7 @@
         }
     },
     "require": {
-        "php": "~7.4"
+        "php": ">=7.4"
     },
     "require-dev": {
         "brandembassy/coding-standard": "^5.0"
